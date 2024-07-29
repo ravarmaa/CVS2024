@@ -4,8 +4,8 @@ from ultralytics import YOLO
 import config
 # Load the YOLOv8 model
 
-scripts_dir = os.path.dirname(os.path.abspath(__file__))
-faces_checkpoint = os.path.join(scripts_dir, 'face_training', 'face', 'weights' ,'best.pt')
+# scripts_dir = os.path.dirname(os.path.abspath(__file__))
+faces_checkpoint = os.path.join(os.getcwd(), 'face_training', 'face', 'weights' ,'best.pt')
 
 model_pt = faces_checkpoint if (config.DETECT_FACES and os.path.exists(faces_checkpoint)) else 'yolov8n.pt'
 
