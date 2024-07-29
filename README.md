@@ -20,3 +20,10 @@
 
 7. Run test_yolo.py and see if face detection works
 * Set "DETECT_FACES" to 1 in the config to use the face detection model. 
+
+
+8. Train Faster RCNN by running train_frcnn.py
+* Note that for training the Faster RCNN we have brought out some complexity to the user, such as the training parameters and the dataloader.
+
+9. Run test_frcnn.py and see if the face detection works.
+* Note that it uses the weights from the last epoch.
