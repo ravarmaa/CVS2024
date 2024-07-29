@@ -1,0 +1,1 @@
+yolo task=detect mode=train data=/home/stan/CVS2024/datasets/data.yaml model=yolov8n.pt epochs=5 imgsz=1024 batch=8 project=/home/stan/CVS2024/face_training name=faces
