@@ -19,3 +19,4 @@
 * Lower the "DATASET_PERCENTAGE" if training on a CPU.
 
 7. Run test_yolo.py and see if face detection works
+* Set "DETECT_FACES" to 1 in the config to use the face detection model. 
