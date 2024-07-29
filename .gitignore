@@ -166,3 +166,4 @@ datasets/
 data.yaml
 *.pt
 face_training/
+saved_models/
