@@ -1,5 +1,5 @@
 
-FACES_ARCHIVE_DIR = '/home/rando/Downloads/datasets/wider_faces/archive'
+FACES_ARCHIVE_DIR = ''
 
 DATASET_PERCENTAGE = 100
 
