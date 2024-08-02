@@ -15,7 +15,7 @@
 5. Run split.py to split the dataset into training and test sets
 * Point the "FACES_ARCHIVE_DIR" in the config to the extracted archive folder
 
-6. Train yolo to detect faces - run train.py
+6. Train yolo to detect faces - run train_yolo.py
 * Lower the "DATASET_PERCENTAGE" if training on a CPU.
 
 7. Run test_yolo.py and see if face detection works
